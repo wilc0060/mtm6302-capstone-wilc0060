@@ -1,12 +1,282 @@
  <!DOCTYPE html>
  <html lang="en">
+
  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.js">
+    <title>Quiz</title>
  </head>
+
  <body>
-    part-2 done.
+    <!-- site header -->
+    <header>
+       <img class="logo-image" src="./MOCKUP/QI.png" alt="logo-image">
+       <div id="nv">
+          <nav id="topnav">
+             <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Quiz">Quiz</a></li>
+                <li><a href="#Result">Result</a></li>
+                <li><a href="#IQ">IQ</a></li>
+             </ul>
+
+          </nav>
+       </div>
+
+    </header>
+    <main>
+       <div class="Welcome">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium tempora
+             sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti fuga
+             voluptatem
+             quaerat minima molestiae.
+          </p>
+          <button id="button">Take Quiz</button>
+       </div>
+
+       <div class="qi">
+          <h1>QI Quiz</h1>
+          <p>Est. length: 1:00:00 </p>
+       </div>
+
+       <hr class="sep">
+
+       <div>
+          <div id="qp">
+             <h2>Question 1</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti fuga
+                voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="yes" name="yes" value="yes">
+          <label for="yes">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 2</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti fuga
+                voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="yes" name="yes" value="yes">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 3</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti
+                fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="yes" name="age" value="yes">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 4</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti
+                fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="yes" name="age" value="no">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="yes">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 5</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum
+                laudantium tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis
+                deleniti fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <div>
+             <input type="radio" id="no" name="age" value="no">
+             <label for="no">0 - 30</label><br>
+             <input type="radio" id="yes" name="age" value="yes">
+             <label for="yes">31 - 60</label><br>
+             <input type="radio" id="age1" name="age" value="30">
+             <label for="age1">0 - 30</label><br>
+             <input type="radio" id="age2" name="age" value="60">
+             <label for="age2">31 - 60</label><br>
+          </div>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 6</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti
+                fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="yes" name="age" value="yes">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 7</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum
+                laudantium tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis
+                deleniti fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <div>
+             <input type="radio" id="no" name="age" value="no">
+             <label for="no">0 - 30</label><br>
+             <input type="radio" id="yes" name="age" value="yes">
+             <label for="yes">31 - 60</label><br>
+             <input type="radio" id="age1" name="age" value="30">
+             <label for="age1">0 - 30</label><br>
+             <input type="radio" id="age2" name="age" value="60">
+             <label for="age2">31 - 60</label><br>
+          </div>
+       </div>
+
+       <div>
+          <div id="qp">
+             <h2>Question 8</h2>
+             <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                tempora
+                sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti
+                fuga voluptatem
+                quaerat minima molestiae.
+             </p>
+          </div>
+          <input type="radio" id="yes" name="age" value="no">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="yes">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="age" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div>
+             <div id="qp">
+                <h2>Question 9</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                   tempora
+                   sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti fuga
+                   voluptatem
+                   quaerat minima molestiae.
+                </p>
+             </div>
+          </div>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="yes" name="yes" value="yes">
+          <label for="yes">31 - 60</label><br>
+       </div>
+
+       <div>
+          <div>
+             <div id="qp">
+                <h2>Question 10</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias fugiat quidem dolorum laudantium
+                   tempora
+                   sit, accusantium rem error voluptatem. Voluptatibus recusandae deserunt similique omnis deleniti fuga
+                   voluptatem
+                   quaerat minima molestiae.
+                </p>
+             </div>
+          </div>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">0 - 30</label><br>
+          <input type="radio" id="no" name="no" value="no">
+          <label for="no">31 - 60</label><br>
+          <input type="radio" id="yes" name="yes" value="yes">
+          <label for="yes">0 - 30</label><br>
+          <input type="radio" id="no" name="yes" value="no">
+          <label for="no">31 - 60</label><br>
+       </div>
+
+       <hr class="sep">
+
+       <div class="question-buttons">
+          <button class="pq">Quiz</button>
+          <button class="nq">Submit Quiz</button>
+       </div>
+
+
+       <script src="main.js"></script>
+
+       <div>
+          <footer id="footer-container">
+             <div class="footer">
+                <h4 class="footer-p">Follow Us</h4>
+                <div class="socialmedia-icon">
+                   <i class="fa-brands fa-youtube"></i>
+                   <i class="fa-brands fa-square-instagram"></i>
+                   <i class="fa-brands fa-facebook"></i>
+                   <i class="fa-brands fa-twitter"></i>
+                </div>
+             </div>
+          </footer>
+       </div>
+    </main>
+
+
  </body>
+
  </html>
