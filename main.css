@@ -62,6 +62,15 @@
 
     }
 
+    .question {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+    .q {
+        display: none;
+    }
+
     .sep {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -136,11 +145,6 @@
 
 
 }
-
-
-
-
-
 
 /* For Desktop Mockup */
 @media only screen and (min-width:958px) {}
