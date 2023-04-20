@@ -62,7 +62,7 @@
 
     }
 
-    .Question {
+    .Questions {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
         flex-direction: column;
@@ -149,12 +149,7 @@
 
 /* For Desktop Mockup */
 @media only screen and (min-width:958px) {
-    .logo-image {
-        width: 10px;
-        padding-right: 100%;
-    }
-
-    .Question{
-        padding-right:20px ;
+    .Questions {
+        padding-right: 20%;
     }
 }
