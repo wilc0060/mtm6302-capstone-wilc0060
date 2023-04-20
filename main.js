@@ -44,3 +44,4 @@ function displayUsers(json) {
     `)
     $userList.innerHTML = htmlTemplate.join('')
   }
+}
