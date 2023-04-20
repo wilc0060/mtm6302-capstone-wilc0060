@@ -1,4 +1,3 @@
-/* For Mobile */
 @media screen and (min-width:320px) {
     html {
         text-align: center;
@@ -62,7 +61,7 @@
 
     }
 
-    .question {
+    .Questions {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
         flex-direction: column;
@@ -148,4 +147,8 @@
 }
 
 /* For Desktop Mockup */
-@media only screen and (min-width:958px) {}
+@media only screen and (min-width:958px) {
+    .Questions {
+        padding-right: 20%;
+    }
+}

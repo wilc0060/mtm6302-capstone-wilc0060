@@ -23,7 +23,7 @@ function displayUsers(json) {
   const htmlTemplate = []
 
   for (const user of json) {
-    htmlTemplate.push(`<h2 class = "Question">Question${user.id}</h2><p>${user.question}</p>
+    htmlTemplate.push(`<h2 class = "Questions" >Question${user.id}</h2><p>${user.question}</p>
     <div>
     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
     <label for="javascript">${user.answers.answer_a}</label>
@@ -44,6 +44,3 @@ function displayUsers(json) {
     `)
     $userList.innerHTML = htmlTemplate.join('')
   }
-
-
-}
